@@ -7,7 +7,7 @@ CUDA_VISIBLE_DEVICES=4 python -m llava.eval.model_vqa_loader \
     --answers-file ./playground/data/eval/textvqa/answers/llava-v1.5-13b.jsonl \
     --temperature 0 \
     --conv-mode vicuna_v1 \
-    --reduction_ratio 60 \
+    --reduction_ratio 50 \
 
 
 python -m llava.eval.eval_textvqa \
